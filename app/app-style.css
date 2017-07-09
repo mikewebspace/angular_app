@@ -1,0 +1,10 @@
+menu{
+    border: 1px solid red;
+}
+menu item{
+    border: 1px solid green;
+}
+.app_content{
+    background-color:paleturquoise;
+
+}

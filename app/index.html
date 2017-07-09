@@ -1,0 +1,26 @@
+<html ng-app="main">
+
+<head>
+    <title>Exercice</title>
+    <base href="/app/">
+    <link rel="stylesheet" href="../node_modules/angular/angular-csp.css" />
+    <link rel="stylesheet" href="app-style.css">
+</head>
+
+<body ng-cloak ng-csp>
+
+    <!-- Menu -->
+    <app-menu></app-menu>
+
+    <!-- Content -->
+    <ui-view class="app_content"></ui-view>
+
+    <!-- Javascript dependencies -->
+    <script src="../node_modules/angular/angular.js"></script>
+    <script src="../node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="app-route.js"></script>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
